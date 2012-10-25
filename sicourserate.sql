@@ -26,6 +26,9 @@ SET time_zone = "+00:00";
 -- Table structure for table `comments`
 --
 
+CREATE DATABASE IF NOT EXISTS `sicourserate` ;
+USE `sicourserate`;
+
 CREATE TABLE IF NOT EXISTS `comments` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `text` varchar(2000) NOT NULL,
